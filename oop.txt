@@ -1,0 +1,71 @@
+plot given by LPTHW
+
+            Gothons from Planet Percal #25
+ ## "Aliens have invaded a space ship and our hero has
+to go through a maze of rooms defeating them so he can escape into an
+escape pod to the planet below. The game will be more like a Zork or
+Adventure type game with text outputs and funny ways to die. The game
+will involve an engine that runs a map full of rooms or scenes.
+Each room will print its own description when the player enters it and
+then tell the engine what room to run next out of the map."
+
+## room classes
+    living quarters
+    engine room
+    food storage
+    Pilot's Cockpit
+
+## alien type classes
+    Giant Blob Fish
+    Jawas
+    Ewoks
+    Space Cows
+    Gothons
+
+## Important scenes
+    Death
+    Central Corridor (starting Point)
+    Laser Weapon Armory (gets a neutron bomb with keypad)
+    The Bridge (Another Gothon where hero has to place bomb)
+    Escape pod
+## Key nouns (classes)
+    Alien
+    Player
+    Ship
+    Maze
+    Room
+    Scene
+    Gothon (type maybe)
+    Escape Pod
+    Central Corridor
+    Death
+    Laser Weapon
+    The Bridge
+
+
+
+    ## Similarities
+    Choice of scene instead of room because Death is basically a scene
+    A Death room is kinda odd
+    Maze and Map are the same
+
+    ## Structure of game classes
+##  Hierarchy
+            * Map
+            * Engine
+            * Scene
+##  Lower
+            * Death
+            * Central Corridor
+            * Laser Weapon Armory
+            * The Bridge
+            * Escape Pod
+
+    ## Structure and Role of Hierarchy
+        * Map
+                - next_scene
+                - opening_scene
+        * Engine
+                - play
+        * Scene
+                - enter
